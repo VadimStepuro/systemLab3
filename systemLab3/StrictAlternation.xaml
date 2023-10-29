@@ -1,0 +1,16 @@
+﻿<Window x:Class="systemLab3.StrictAlternation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:systemLab3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="result" TextWrapping="Wrap" Text="" Margin="384,102,53,102"/>
+        <TextBox x:Name="charBox" TextWrapping="Wrap" Text="T" Width="120" Margin="105,160,575,217" TextChanged="TextBox_TextChanged"/>
+        <Button Content="Start" Margin="117,286,587,102" Click="Button_Click"/>
+        <Button Content="Return" Margin="0,0,612,372" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
